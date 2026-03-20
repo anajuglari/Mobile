@@ -1,7 +1,9 @@
 import React from 'react'
 import {StyleSheet, Text, View, FlatList, TouchableOpacity, SafeAreaView} from 'react-native'
-
-const Data = [
+import {NavigationColntainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+//---
+const DATA = [
 {id: '1', title: 'Configuração'},
 {id: '2', title: 'Perfil'},
 {id: '3', title: 'Mensagem'},
