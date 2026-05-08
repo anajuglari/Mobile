@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Image, View, Text, Platform } from 'react-native'; 
+import { Image, View, Text, Platform } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -15,7 +15,7 @@ function LogoTitle() {
     <View style={{ flexDirection: 'row', alignItems: 'center' }}>
       <Image
         style={{ width: 30, height: 30, marginRight: 10 }}
-        source={require('./assets/logo.png')} 
+        source={require('./assets/logo.png')}
       />
       <Text style={{ color: '#fff', fontSize: 20, fontWeight: 'bold' }}>
         Receitas Incríveis
@@ -27,18 +27,18 @@ function LogoTitle() {
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator 
-        screenOptions={{ 
-          headerStyle: { backgroundColor: '#326696' }, 
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: { backgroundColor: '#326696' },
           headerTintColor: '#fff',
           // AJUSTE CRUCIAL: Remove a trava de altura no navegador
           cardStyle: { flex: 1, backgroundColor: '#fff', overflow: Platform.OS === 'web' ? 'visible' : 'hidden' }
         }}
       >
-        <Stack.Screen 
-          name="Home" 
-          component={HomeScreen} 
-          options={{ headerTitle: props => <LogoTitle {...props} /> }} 
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{ headerTitle: props => <LogoTitle {...props} /> }}
         />
         <Stack.Screen name="Ingredientes" component={IngredientsScreen} />
         <Stack.Screen name="Utensílios" component={ToolsScreen} />
