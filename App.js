@@ -15,7 +15,7 @@ function LogoTitle() {
     <View style={{ flexDirection: 'row', alignItems: 'center' }}>
       <Image
         style={{ width: 30, height: 30, marginRight: 10 }}
-        source={require('./assets/logo.png')}
+        source={require('./assets/palrinthias.png')}
       />
       <Text style={{ color: '#fff', fontSize: 20, fontWeight: 'bold' }}>
         Receitas Incríveis
