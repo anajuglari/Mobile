@@ -125,7 +125,7 @@ const RECEITAS_INICIAIS = [
  "3. Mexa até engrossar.",
  "4. Despeje sobre o bolo e finalize com granulado."
 ]}, 
- videoUrl: 'https://raw.githubusercontent.com/anajuglari/Mobile/main/videos/cenoura.mp4?raw=true' 
+ videoUrl: 'https://raw.githubusercontent.com/anajuglari/Mobile/main/videos/bolo-de-cenoura.mp4?raw=true' 
  },
  { 
  id: "4", 
