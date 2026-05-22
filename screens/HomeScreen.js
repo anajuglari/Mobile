@@ -163,7 +163,7 @@ const RECEITAS_INICIAIS = [
  "5. Coloque sobre a massa já fria.",
  "6. Leve à geladeira até firmar."
  ]}, 
- videoUrl: 'https://raw.githubusercontent.com/anajuglari/Mobile/main/videos/laranja.mp4?raw=true' 
+ videoUrl: 'https://raw.githubusercontent.com/anajuglari/Mobile/main/videos/torta_de_limao.mp4?raw=true' 
 },
 ]
 
